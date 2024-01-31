@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Entities.Concrete
 {
-    internal class CustomerAddresses : IEntity
+    public class Customer : IEntity
     {
         public string Id { get; set; }
         public string FirstName { get; set; }
@@ -15,5 +15,6 @@ namespace Entities.Concrete
         public string MailAddress { get; set; }
         public string RegisterDate { get; set; }
         public bool Status { get; set; }
+
     }
 }
